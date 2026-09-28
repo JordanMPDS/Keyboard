@@ -68,7 +68,7 @@ class Config(context: Context) : BaseConfig(context) {
         set(showWordSuggestions) = prefs.edit().putBoolean(SHOW_WORD_SUGGESTIONS, showWordSuggestions).apply()
 
     var autoCorrect: Boolean
-        get() = prefs.getBoolean(AUTO_CORRECT, false)
+        get() = prefs.getBoolean(AUTO_CORRECT, true)
         set(autoCorrect) = prefs.edit().putBoolean(AUTO_CORRECT, autoCorrect).apply()
 
     var learnWords: Boolean
