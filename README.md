@@ -26,6 +26,33 @@ The `commons` submodule is [a fork of Fossify Commons](https://github.com/blckas
 
 The dictionaries are built by `tools/dictionary/build_wordlist.py`, see [its README](tools/dictionary/README.md). Their licenses are in `app/src/main/assets/dictionaries/`.
 
+## Releasing
+
+Create an upload key once, and keep it and its passwords out of the repository:
+
+```sh
+keytool -genkeypair -v -keystore upload.jks -alias upload -keyalg RSA -keysize 4096 -validity 10000
+```
+
+Point the build at it with a `keystore.properties` file at the repository root (it's gitignored):
+
+```properties
+keyAlias=upload
+keyPassword=<key password>
+storeFile=<absolute path to upload.jks>
+storePassword=<keystore password>
+```
+
+Or set the `SIGNING_KEY_ALIAS`, `SIGNING_KEY_PASSWORD`, `SIGNING_STORE_FILE` and `SIGNING_STORE_PASSWORD` environment
+variables instead. Without either, the release build is unsigned.
+
+Increase `VERSION_CODE` in `gradle.properties` for every upload to Google Play, and set `VERSION_NAME`. Then build the
+bundle, which ends up in `app/build/outputs/bundle/fossRelease/`:
+
+```sh
+./gradlew :app:bundleFossRelease
+```
+
 ## License
 
 Quill Keyboard is licensed under the [GNU General Public License v3.0](LICENSE). It's based on Fossify Keyboard by Fossify and its contributors.
