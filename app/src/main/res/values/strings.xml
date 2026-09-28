@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Keyboard</string>
-    <string name="redirection_note">Please enable Fossify Keyboard on the next screen, to make it an available keyboard. Press \'Back\' once enabled.</string>
+    <string name="redirection_note">Please enable Quill Keyboard on the next screen, to make it an available keyboard. Press \'Back\' once enabled.</string>
     <string name="change_keyboard">Change Keyboard</string>
     <!-- Clipboard -->
     <string name="manage_clipboard_items">Manage clipboard items</string>
@@ -52,6 +51,8 @@
     <string name="clear_learned_words_confirmation">Are you sure you want to forget all the words the keyboard has learned?</string>
     <!-- A typed word on the suggestion strip, which autocorrect would replace -->
     <string name="typed_word">“%s”</string>
+    <!-- A row of the About screen linking to the app this keyboard was made from -->
+    <string name="based_on_fossify_keyboard">Based on Fossify Keyboard</string>
     <!-- Emojis -->
     <string name="emojis">Emojis</string>
     <string name="recently_used">Recently used</string>

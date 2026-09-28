@@ -36,6 +36,8 @@ android {
         targetSdk = project.libs.versions.app.build.targetSDK.get().toInt()
         versionName = project.property("VERSION_NAME").toString()
         versionCode = project.property("VERSION_CODE").toString().toInt()
+        // Commons finds the launcher icon aliases by the application ID, without the suffix of debug builds
+        manifestPlaceholders["baseApplicationId"] = project.property("APP_ID").toString()
         multiDexEnabled = true
         vectorDrawables.useSupportLibrary = true
         ksp {
@@ -122,7 +124,8 @@ android {
         )
     }
 
-    namespace = project.property("APP_ID").toString()
+    // The code keeps the package of Fossify Keyboard, which makes merging its changes easier
+    namespace = "org.fossify.keyboard"
 
     lint {
         checkReleaseBuilds = false

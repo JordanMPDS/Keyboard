@@ -1,14 +1,9 @@
 ### Reporting
 
-Before you report something, read the reporting
-rules [here](https://github.com/FossifyOrg/General-Discussion#how-do-i-suggest-an-improvement-ask-a-question-or-report-an-issue) please.
+Report bugs and suggest features in the [issues](https://github.com/blckassassin/Keyboard/issues) of this repository. Please search the existing issues first.
 
-### Contributing as a developer
+### Contributing code
 
-Some instructions about code style and everything that has to be done to increase the chance of your code getting accepted can be found at
-the [General Discussion](https://github.com/FossifyOrg/General-Discussion#contribution-rules-for-developers) section.
-
-### Contributing as a non developer
-
-In case you just want to for example improve a translation, you can find the way of doing
-it [here](https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file).
+- Follow the existing code style and naming, and format code and optimize imports.
+- Run the same checks as CI before opening a pull request: `./gradlew :app:testFossDebugUnitTest detekt lint`
+- Add an entry to the "Unreleased" section of `CHANGELOG.md` for changes users will notice.

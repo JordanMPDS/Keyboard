@@ -11,11 +11,8 @@ import org.fossify.commons.extensions.applyColorFilter
 import org.fossify.commons.extensions.getContrastColor
 import org.fossify.commons.extensions.getProperPrimaryColor
 import org.fossify.commons.extensions.hideKeyboard
-import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
 import org.fossify.commons.extensions.updateTextColors
 import org.fossify.commons.extensions.viewBinding
-import org.fossify.commons.helpers.LICENSE_GSON
-import org.fossify.commons.models.FAQItem
 import org.fossify.keyboard.BuildConfig
 import org.fossify.keyboard.R
 import org.fossify.keyboard.databinding.ActivityMainBinding
@@ -29,7 +26,6 @@ class MainActivity : SimpleActivity() {
         setContentView(binding.root)
         appLaunched(BuildConfig.APPLICATION_ID)
         setupOptionsMenu()
-        refreshMenuItems()
 
         binding.apply {
             setupEdgeToEdge(padBottomSystem = listOf(mainNestedScrollview))
@@ -69,19 +65,11 @@ class MainActivity : SimpleActivity() {
     private fun setupOptionsMenu() {
         binding.mainToolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.more_apps_from_us -> launchMoreAppsFromUsIntent()
                 R.id.settings -> launchSettings()
                 R.id.about -> launchAbout()
                 else -> return@setOnMenuItemClickListener false
             }
             return@setOnMenuItemClickListener true
-        }
-    }
-
-    private fun refreshMenuItems() {
-        binding.mainToolbar.menu.apply {
-            findItem(R.id.more_apps_from_us).isVisible =
-                !resources.getBoolean(R.bool.hide_google_relations)
         }
     }
 
@@ -91,15 +79,8 @@ class MainActivity : SimpleActivity() {
     }
 
     private fun launchAbout() {
-        val licenses = LICENSE_GSON
-
-        val faqItems = ArrayList<FAQItem>()
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            faqItems.add(FAQItem(R.string.faq_2_title_commons, R.string.faq_2_text_commons))
-            faqItems.add(FAQItem(R.string.faq_6_title_commons, R.string.faq_6_text_commons))
-        }
-
-        startAboutActivity(R.string.app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
+        hideKeyboard()
+        startActivity(Intent(applicationContext, AboutActivity::class.java))
     }
 
     private fun updateChangeKeyboardColor() {
@@ -115,7 +96,8 @@ class MainActivity : SimpleActivity() {
 
     private fun isKeyboardEnabled(): Boolean {
         return inputMethodManager.enabledInputMethodList.any {
-            it.settingsActivity == SettingsActivity::class.java.canonicalName
+            // Fossify Keyboard has the same classes, so the package tells them apart
+            it.packageName == packageName && it.settingsActivity == SettingsActivity::class.java.canonicalName
         }
     }
 }

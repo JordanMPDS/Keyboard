@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="keyboard_language">زبان صفحه کلید</string>
-    <string name="app_launcher_name">صفحه‌کلید</string>
-    <string name="redirection_note">لطفاً در صفحهٔ بعدی Fossify Keyboard را فعال کنید تا به‌عنوان یک صفحه‌کلید در دسترس قرار گیرد. پس از فعال‌سازی، دکمهٔ «بازگشت» را فشار دهید.</string>
+    <string name="redirection_note">لطفاً در صفحهٔ بعدی Quill Keyboard را فعال کنید تا به‌عنوان یک صفحه‌کلید در دسترس قرار گیرد. پس از فعال‌سازی، دکمهٔ «بازگشت» را فشار دهید.</string>
     <string name="change_keyboard">تغییر صفحه‌کلید</string>
     <string name="manage_clipboard_items">مدیریت موارد کلیپ‌بورد</string>
     <string name="manage_clipboard_label">کلیپ‌بورد شما خالی است.هنگامی که متنی را کپی کنید، اینجا نمایش داده می‌شود. همچنین می‌توانید بریده‌ها را سنجاق کنید تا بعداً ناپدید نشوند.</string>

@@ -1,22 +1,15 @@
-Introducing Fossify Keyboard – your go-to solution for effortless and efficient typing. Experience a seamless typing experience designed to cater to all your needs, whether chatting with friends or inserting texts, numbers, or symbols.<br><br>
-<b>📶 OFFLINE FUNCTIONALITY:</b><br>
-Fossify Keyboard operates entirely offline without internet permission, allowing you to use it anytime, anywhere, without needing an internet connection. This also provides you with more privacy, security, and stability compared to other keyboards that connect to the internet.<br><br>
-<b>🌐 MULTIPLE LANGUAGES AND LAYOUTS:</b><br>
-Choose from a wide variety of languages and keyboard layouts. Fossify Keyboard supports multiple languages, making it easy for you to switch and type in your preferred language effortlessly.<br><br>
+Quill Keyboard is a private, offline keyboard with word suggestions and autocorrect. It is based on Fossify Keyboard.<br><br>
+<b>✍️ WORD SUGGESTIONS AND AUTOCORRECT:</b><br>
+Get word suggestions while you type in English, Spanish, Brazilian Portuguese, German and French. Optional autocorrect fixes typos when you finish a word and restores missing accents, and pressing backspace right after a correction undoes it. New words you type are learned on your device and can be cleared at any time.<br><br>
+<b>📶 FULLY OFFLINE:</b><br>
+Quill Keyboard has no internet permission. Everything, including the dictionaries and the words it learns, stays on your device.<br><br>
+<b>🌐 MANY LANGUAGES AND LAYOUTS:</b><br>
+Choose from a wide range of languages and keyboard layouts, and switch between them easily.<br><br>
 <b>📋 HANDY CLIPBOARD:</b><br>
-Create clips and pin frequently used ones for easy access. This feature allows you to insert your most-used texts quickly, saving you time and effort.<br><br>
-<b>📳 CUSTOMIZABLE SETTINGS:</b><br>
-Tailor your typing experience by toggling vibrations, popups on key presses, and selecting your preferred language from the list of supported ones. Personalize your keyboard settings to suit your preferences.<br><br>
-<b>🌙 MATERIAL DESIGN AND DARK THEME:</b><br>
-Enjoy a sleek, modern design with a default dark theme. Fossify Keyboard offers a visually appealing and comfortable user experience, making typing a pleasure.<br><br>
-<b>🔒 PRIVACY AND SECURITY:</b><br>
-Your privacy is our top priority. Fossify Keyboard does not collect or share any user information with third parties. Experience peace of mind knowing your typing activity remains private and secure.<br><br>
-<b>🎨 CUSTOMIZABLE COLORS:</b><br>
-Personalize your keyboard with customizable colors. Fossify Keyboard allows you to choose and adjust colors to match your style and preferences.<br><br>
-<b>🌐 OPEN-SOURCE TRANSPARENCY:</b><br>
-Fossify Keyboard is fully open-source, providing you with transparency and security. You have access to the source code for audits, ensuring a trustworthy and reliable typing tool.<br><br>
-Experience typing like never before – efficient, personalized, and secure. Download Fossify Keyboard now and elevate your typing experience.<br><br>
-Explore more Fossify apps: https://www.fossify.org<br>
-Open-Source Code: https://www.github.com/FossifyOrg<br>
-Join the community on Reddit: https://www.reddit.com/r/Fossify<br>
-Connect on Telegram: https://t.me/Fossify<br>
+Save clips and pin the ones you use most, so you can insert them quickly.<br><br>
+<b>🎨 CUSTOMIZABLE:</b><br>
+Adjust the colors, the keyboard height, vibration, sounds and popups on key presses. A dark theme is used by default.<br><br>
+<b>🔓 OPEN SOURCE:</b><br>
+Quill Keyboard is open source under the GPL-3.0, so its code can be audited by anyone.<br><br>
+Source code: https://github.com/blckassassin/Keyboard<br>
+Based on Fossify Keyboard: https://github.com/FossifyOrg/Keyboard<br>

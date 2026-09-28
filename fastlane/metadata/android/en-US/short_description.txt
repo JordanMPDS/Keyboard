@@ -1,1 +1,1 @@
-Simple and open-source offline keyboard with emojis
+Private offline keyboard with word suggestions and autocorrect

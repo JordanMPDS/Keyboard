@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc">ABC</string>
-    <string name="app_name">Fossify Keyboard</string>
+    <string name="app_name">Quill Keyboard</string>
+    <string name="app_launcher_name">Quill Keyboard</string>
 </resources>

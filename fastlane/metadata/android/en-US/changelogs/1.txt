@@ -1,1 +1,7 @@
-* Initial release
+First release of Quill Keyboard, based on Fossify Keyboard 1.9.1.
+
+Added:
+
+• Word suggestions for English, Spanish, Brazilian Portuguese, German and French
+• Optional autocorrect; press backspace right after a correction to undo it
+• The keyboard learns new words you type; learned words can be cleared in settings
