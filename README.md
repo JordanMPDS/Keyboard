@@ -5,7 +5,7 @@
 A private, offline keyboard with word suggestions and autocorrect, based on [Fossify Keyboard](https://github.com/FossifyOrg/Keyboard).
 
 - **Word suggestions and autocorrect** in English, Spanish, Brazilian Portuguese, German and French. Autocorrect is optional, and pressing backspace right after a correction undoes it. New words you type are learned on your device.
-- **Fully offline:** the app has no internet permission, so the dictionaries and the words it learns never leave your device.
+- **Fully offline:** the app has no internet permission, so the dictionaries and the words it learns never leave your device. See the [privacy policy](PRIVACY.md).
 - **Many languages and layouts**, a clipboard with pinned clips, and customizable colors, keyboard height, vibration and sounds.
 
 <div align="center">
