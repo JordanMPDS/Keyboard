@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         ## Hi there 👋
-        Thanks for helping us improve Fossify Keyboard by reporting a bug!
+        Thanks for helping us improve Quill Keyboard by reporting a bug!
         Please fill in as much information as possible about your bug to avoid unnecessary and time-consuming back-and-forth communication.
 
   - type: checkboxes
@@ -14,19 +14,15 @@ body:
     attributes:
       label: "Checklist"
       options:
-        - label: "I can reproduce the bug with the latest version given [here](https://github.com/FossifyOrg/Keyboard/releases/latest)."
+        - label: "I can reproduce the bug with the latest version given [here](https://github.com/blckassassin/Keyboard/releases/latest)."
           required: true
-        - label: "I made sure that there are **no existing issues** - [open](https://github.com/FossifyOrg/Keyboard/issues) or [closed](https://github.com/FossifyOrg/Keyboard/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
-          required: true
-        - label: "I made sure that there are **no existing discussions** - [open](https://github.com/orgs/FossifyOrg/discussions?discussions_q=is:open+label:keyboard) or [closed](https://github.com/orgs/FossifyOrg/discussions?discussions_q=is:closed+label:keyboard) - to which I could contribute my information."
-          required: true
-        - label: "I have read the FAQs inside the app (Menu -> About -> FAQs) and my problem isn't listed."
+        - label: "I made sure that there are **no existing issues** - [open](https://github.com/blckassassin/Keyboard/issues) or [closed](https://github.com/blckassassin/Keyboard/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
           required: true
         - label: "**I have taken the time to fill in all the required details. I understand that the bug report will be dismissed otherwise.**"
           required: true
         - label: "This issue contains only one bug."
           required: true
-        - label: "I have read and understood the [contribution guidelines](https://github.com/FossifyOrg/Keyboard/blob/main/CONTRIBUTING.md)."
+        - label: "I have read and understood the [contribution guidelines](https://github.com/blckassassin/Keyboard/blob/main/CONTRIBUTING.md)."
           required: true
 
   - type: input
