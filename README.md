@@ -17,12 +17,12 @@ A private, offline keyboard with word suggestions and autocorrect, based on [Fos
 ## Building
 
 ```sh
-git clone --recurse-submodules https://github.com/blckassassin/Keyboard.git
+git clone --recurse-submodules https://github.com/JordanMPDS/Keyboard.git
 cd Keyboard
 ./gradlew assembleFossRelease
 ```
 
-The `commons` submodule is [a fork of Fossify Commons](https://github.com/blckassassin/Commons/tree/quill) without the checks against forks of the Fossify apps. It's built from source along with the app.
+The `commons` submodule is [a fork of Fossify Commons](https://github.com/JordanMPDS/commons/tree/quill) without the checks against forks of the Fossify apps. It's built from source along with the app.
 
 The dictionaries are built by `tools/dictionary/build_wordlist.py`, see [its README](tools/dictionary/README.md). Their licenses are in `app/src/main/assets/dictionaries/`.
 

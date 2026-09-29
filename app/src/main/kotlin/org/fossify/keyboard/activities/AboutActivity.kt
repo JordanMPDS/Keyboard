@@ -58,7 +58,7 @@ class AboutActivity : SimpleActivity() {
     }
 
     private companion object {
-        const val SOURCE_CODE_URL = "https://github.com/blckassassin/Keyboard"
+        const val SOURCE_CODE_URL = "https://github.com/JordanMPDS/Keyboard"
         const val ISSUES_URL = "$SOURCE_CODE_URL/issues"
         const val FOSSIFY_KEYBOARD_URL = "https://github.com/FossifyOrg/Keyboard"
     }

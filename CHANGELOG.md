@@ -19,5 +19,5 @@ First release of Quill Keyboard, based on Fossify Keyboard 1.9.1.
 
 For the changes of Fossify Keyboard up to 1.9.1, see [its changelog](https://github.com/FossifyOrg/Keyboard/blob/main/CHANGELOG.md).
 
-[Unreleased]: https://github.com/blckassassin/Keyboard/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/blckassassin/Keyboard/releases/tag/1.0.0
+[Unreleased]: https://github.com/JordanMPDS/Keyboard/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/JordanMPDS/Keyboard/releases/tag/1.0.0

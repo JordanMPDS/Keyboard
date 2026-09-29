@@ -13,4 +13,4 @@ Quill Keyboard works entirely offline.
 
 ## Contact
 
-Questions about this policy go to the [issues](https://github.com/blckassassin/Keyboard/issues) of this repository.
+Questions about this policy go to the [issues](https://github.com/JordanMPDS/Keyboard/issues) of this repository.

@@ -11,5 +11,5 @@ Save clips and pin the ones you use most, so you can insert them quickly.<br><br
 Adjust the colors, the keyboard height, vibration, sounds and popups on key presses. A dark theme is used by default.<br><br>
 <b>🔓 OPEN SOURCE:</b><br>
 Quill Keyboard is open source under the GPL-3.0, so its code can be audited by anyone.<br><br>
-Source code: https://github.com/blckassassin/Keyboard<br>
+Source code: https://github.com/JordanMPDS/Keyboard<br>
 Based on Fossify Keyboard: https://github.com/FossifyOrg/Keyboard<br>

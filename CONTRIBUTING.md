@@ -1,6 +1,6 @@
 ### Reporting
 
-Report bugs and suggest features in the [issues](https://github.com/blckassassin/Keyboard/issues) of this repository. Please search the existing issues first.
+Report bugs and suggest features in the [issues](https://github.com/JordanMPDS/Keyboard/issues) of this repository. Please search the existing issues first.
 
 ### Contributing code
 

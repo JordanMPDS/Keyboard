@@ -14,13 +14,13 @@ body:
     attributes:
       label: "Checklist"
       options:
-        - label: "I made sure that there are **no existing issues** - [open](https://github.com/blckassassin/Keyboard/issues) or [closed](https://github.com/blckassassin/Keyboard/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
+        - label: "I made sure that there are **no existing issues** - [open](https://github.com/JordanMPDS/Keyboard/issues) or [closed](https://github.com/JordanMPDS/Keyboard/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
           required: true
         - label: "**I have taken the time to fill in all the required details. I understand that the request will be dismissed otherwise.**"
           required: true
         - label: "This issue contains only one feature request."
           required: true
-        - label: "I have read and understood the [contribution guidelines](https://github.com/blckassassin/Keyboard/blob/main/CONTRIBUTING.md)."
+        - label: "I have read and understood the [contribution guidelines](https://github.com/JordanMPDS/Keyboard/blob/main/CONTRIBUTING.md)."
           required: true
 
   - type: textarea
